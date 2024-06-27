@@ -1,0 +1,39 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+.box{
+    height: 20vh;
+    width: 10vw;
+    background-color: red;
+    position: absolute;
+    animation: a1 3s ease-in 0.3s infinite alternate-reverse backwards;
+}
+@keyframes a1{
+    0%{
+        top: 0;
+        left: 0;  
+    }
+    20%{
+        top: 70vh;
+        left: 0;
+    }
+    30%{
+        top: 70vh;
+        left: 30vw;
+    }
+    40%{
+        top: 0;
+        left: 30vw;
+    }
+    50%{
+        top: 0;
+        left: 55vw;
+    }
+    60%{
+        top: 70vh;
+    }
+    
+}
